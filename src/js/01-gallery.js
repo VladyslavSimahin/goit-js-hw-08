@@ -25,6 +25,7 @@ const galleryMarkup = galleryItems
   })
   .join(' ');
 
+gallery.style.listStyle = 'none';
 gallery.insertAdjacentHTML('afterbegin', galleryMarkup);
 
 new SimpleLightbox('.gallery a', {
